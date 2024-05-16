@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #0e1287;
+    color: rgb(227, 36, 36);
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: rgb(215, 53, 53);
+    text-decoration: none;
+}
+
+.section {
+    padding: 60px 0;
+}
+
+.section:nth-of-type(odd) {
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.project, .experience {
+    margin-bottom: 40px;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.about-text {
+    max-width: 600px;
+    text-align: left;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+.experience {
+    text-align: left;
+    margin: 20px 0;
+}
+
+.experience h3 {
+    margin: 10px 0 5px 0;
+}
+
+.experience h4 {
+    margin: 0 0 10px 0;
+    font-weight: normal;
+}
+
+.experience p {
+    margin: 5px 0;
+}
+
+</style>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#experiences">Experiences</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="welcome" class="section">
+        <div class="container">
+            <h2>Welcome to My Portfolio</h2>
+            <p>Discover my projects and experiences.</p>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container about-container">
+            <img src="Aniket.jpg" alt="Your Name" class="profile-picture">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>Hi, I'm Aniket Kumar Singh.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project 1</h3>
+                <p>Description of Project 1.</p>
+            </div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <p>Description of Project 2.</p>
+            </div>
+            <div class="project">
+                <h3>Project 3</h3>
+                <p>Description of Project 3.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="experiences" class="section">
+        <div class="container">
+            <h2>Experiences</h2>
+            <div class="experience">
+                <h3>Web Development intern</h3>
+                <h4>Bharat Intern</h4>
+                <p>Duration: May,2024 - Present</p>
+            </div>
+            <div class="experience">
+                <h3>Campus Ambassador</h3>
+                <h4>Zuno</h4>
+                <p>Duration: July,2023 - March,2024</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>You can reach me at:</p>
+            <ul>
+                <li>Email: Singhrajputaniket739@gmail.com</li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/aniket-kumar-singh-a9656b209/" target="_blank">Aniket Kumar Singh</a></li>
+                <li>GitHub: <a href="https://github.com/Aniket72" target="_blank">Aniket72</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Aniket Kumar Singh. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
